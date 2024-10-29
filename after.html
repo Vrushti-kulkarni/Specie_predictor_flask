@@ -1,0 +1,20 @@
+<html>
+    <body>
+        <center>
+            <h1>PREDICTION: </h1>
+            ({% if data == 0 %}):
+            <h1>Adelie</h1>  
+
+            {%elif data == 1%}
+            <h1>Chinstrap</h1>
+
+            {%else%}
+            <h1>Gentoo</h1>
+
+            {% endif %}
+
+            <br><br>
+            <a href='/'>go back to home page</a>
+        </center>
+    </body>
+</html>
